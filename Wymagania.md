@@ -1,6 +1,6 @@
 
 # GENERATORY RUCHU (webasto123)
-=======
+
 # Generatory Ruchu
 
 
@@ -16,7 +16,7 @@ Istotną sprawą dla bezpiecznego funkcjonowania całego systemu jest poufność
 
 
 # KONSOLA ZARZĄDZAJĄCA (PonuryKowal)
-=======
+
 # Konsola Zarządzająca
 
 Konsola zarządzania jest narzędziem pozwalającym w prosty sposób konfigurować i kontrolować pracę praktycznie wszystkich mechanizmów i usług dostępnych w sieci Deception. Co ważniejsze możliwe jest to zarówno lokalnie, jak i zdalnie. Konsola zarządzająca ma na celu umożliwienie tworzenia narzędzi administracyjnych, oferujących możliwości zmiany ustawień systemowych w ściśle określonych przez nas dziedzinach.
@@ -30,7 +30,7 @@ Konsola zarządzająca zabezpieczona jest w dwuskładnikowe uwierzytelnianie. Ty
 
 
 # SKRYPTY (kowadło12345) 
-=======
+
 # Skrypty
 
 Skrypty napisane przez programistów są połączone z komponentami takimi jak konta użytkowników, serwery, pliki, usługi, które mają imitować prawdziwe zasoby infrastruktury. Służą do wykrywania złośliwej aktywności. Ponadto, ich zadaniem jest umożliwienie generowania alertów w przypadku wystąpienia incydentu bezpieczeństwa. Dzięki połączeniu z systemem SIEM zapewniają natychmiastowe informowanie personelu o podejrzanej aktywności.
