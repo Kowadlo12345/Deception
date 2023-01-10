@@ -1,4 +1,4 @@
-# Generatory Ruchu
+# Generatory Ruchu (webasto123)
 
 Generator ruchu służy nam do wygenerowania określonego wolumenu pakietów o ustalonej strukturze analizy poprawności jego przesłania przez naszą infrastrukturę. Generatory ruchu mają za zadanie zwieść potencjalnego atakującego, że system Deception jest stale użytkowanym i żywym systemem oraz ma wzbudzić zainteresowanie adwersarza i chęć wejścia do środowiska. 
 ## Wymagania Funkcjonalne
