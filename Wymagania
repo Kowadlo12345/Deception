@@ -1,4 +1,4 @@
-# Generatory Ruchu (webasto123)
+# Generatory Ruchu
 
 Generator ruchu służy nam do wygenerowania określonego wolumenu pakietów o ustalonej strukturze analizy poprawności jego przesłania przez naszą infrastrukturę. Generatory ruchu mają za zadanie zwieść potencjalnego atakującego, że system Deception jest stale użytkowanym i żywym systemem oraz ma wzbudzić zainteresowanie adwersarza i chęć wejścia do środowiska. 
 ## Wymagania Funkcjonalne
@@ -10,7 +10,7 @@ Istotną sprawą dla bezpiecznego funkcjonowania całego systemu jest poufność
 
 
 
-# Konsola Zarządzająca (PonuryKowal)
+# Konsola Zarządzająca
 Konsola zarządzania jest narzędziem pozwalającym w prosty sposób konfigurować i kontrolować pracę praktycznie wszystkich mechanizmów i usług dostępnych w sieci Deception. Co ważniejsze możliwe jest to zarówno lokalnie, jak i zdalnie. Konsola zarządzająca ma na celu umożliwienie tworzenia narzędzi administracyjnych, oferujących możliwości zmiany ustawień systemowych w ściśle określonych przez nas dziedzinach.
 ## Wymagania Funkcjonalne 
 Konsola zarządzająca ma przejrzysty interfejs, aby była bezproblemowa w obsłudze. Jest intuicyjna, skalowalna i zintegrowana ze wszystkimi komponentami systemu Deception, takimi jak: skrypty, generatory ruchu oraz reguły korelacyjne. Dzięki konsoli zarządzającej możliwe jest koordynowanie pracy generatorów ruchu, których zadaniem jest zwieść potencjalnego atakującego, że system Deception jest użytkowanym i żywym systemem. Przy pomocy konsoli ustawiana jest częstotliwość wysyłanych maili, ich ilość oraz ilość zapytań do serwera DNS za pomocą generatorów ruchu. Możliwe jest tworzenie kont nowych użytkowników w systemie Deception, ich usuwanie, edytowanie oraz zabezpieczanie i wszelkie administrowanie. Ponadto w konsoli zarządzającej odbywa się również kontrola skryptów. W każdej chwili można nimi zarządzać i odpowiednio dostosowywać przy pomocy reguł korelacyjnych. 
@@ -20,7 +20,7 @@ Wymagania wydajnościowe dla konsoli zarządzającej obejmują zdolność do adm
 Konsola zarządzająca zabezpieczona jest w dwuskładnikowe uwierzytelnianie. Tylko osoby odpowiedzialne za obsługę konsoli będą miały do niej dostęp dzięki spersonalizowanym hasłom i indywidualnym tokenom bezpieczeństwa. Osoby będące zaangażowane w projekt Deception, ale nie odpowiedzialne za administrowanie konsoli zarządzającej, w myśl teorii ZeroTrust - nie będą miały do niej dostępu. Aplikacja jest zabezpieczona w określoną liczbę logowań oraz w określoną liczbę błędnych prób logowania. Systematycznie są przeprowadzane kopie zapasowe, w celu zminimalizowania ryzyka utraty danych. Sama aplikacja jest regularnie aktualizowana, a wszelkie luki są od razu wykrywane i systematycznie łatane oraz opracowana jest całościowa strategia bezpieczeństwa pozwalająca na szybkie reagowanie w razie zaistnienia zagrożenia. Zdalny dostęp do konsoli jest szyfrowany, ponadto jest odizolowana od reszty systemu i znajduje się na zabezpieczonej stacji roboczej, która również jest regularnie monitorowana i aktualizowana, w celi zminimalizowania wszelkiego ryzyka. Konsola zarządzająca jest poufna i osoby niezaangażowane nie mają pojęcia o jej istnieniu. 
 
 
-# Skrypty (kowadło12345) 
+# Skrypty
 Skrypty napisane przez programistów są połączone z komponentami takimi jak konta użytkowników, serwery, pliki, usługi, które mają imitować prawdziwe zasoby infrastruktury. Służą do wykrywania złośliwej aktywności. Ponadto, ich zadaniem jest umożliwienie generowania alertów w przypadku wystąpienia incydentu bezpieczeństwa. Dzięki połączeniu z systemem SIEM zapewniają natychmiastowe informowanie personelu o podejrzanej aktywności.
 ## Wymagania Funkcjonalne 
 Skrypty odpowiedzialne są za prawidłowe funkcjonowanie i bezawaryjnego połączenia z komponentami takimi jak: konta użytkowników, maszyny wirtualne – serwery, pliki oraz usługi. Zapewniają również połączenie z systemem SIEM, czyli informatycznym systemem służącym do poprawie cyberbezpieczeństwa firmy poprzez zbieranie oraz analizowanie informacji o incydentach, błędach i podatnościach w czasie rzeczywistym. Skrypty są również odpowiedzialne za poprawne wykrywanie aktywności i generowanie alertów w odpowiednim czasie, a także za imitowanie prawdziwych danych – zapewnienie wiarygodności. Do zadań należy również ujawnienie próby odgadnięcia hasła użytkownika oraz umożliwienie przeciwnikowi dostępu do podstawowej infrastruktury.
