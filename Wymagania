@@ -7,15 +7,15 @@ Generatory ruchu posiadają następujące wymagania funkcjonalne: Muszą pracowa
 ##Wymagania bezpieczeństwa##
 Istotną sprawą dla bezpiecznego funkcjonowania całego systemu jest poufność istnienia generatorów ruchu. Przesyłane pakiety, które mają imitować prawdziwe dane, nie mogą zostać rozpoznane jako fałszywe. Oszukanie przeciwnika, że jest to prawdziwy ruch jest kluczowym elementem działania całego systemu. Generator ruchu sieciowego musi zapewniać bezpieczeństwo danych, w tym szyfrowanie danych, zapory ogniowe, kontrolę uprawnień do dostępu, monitorowanie i ochronę antywirusową. System powinien być także w stanie monitorować i reagować na nienaturalne aktywności w sieci, takie jak ataki hakerskie, i odpowiednio je blokować lub przechwytywać. Ponadto, generator ruchu sieciowego powinien zapewniać wysoką niezawodność, aby zapewnić ciągłe przesyłanie danych. Powinien również oferować narzędzia do tworzenia kopii zapasowych danych i wykonywać je w celu ochrony przed uszkodzeniami lub utratą danych. System powinien także być w stanie odpowiednio reagować na próby nieautoryzowanego dostępu. Ponadto, generator ruchu sieciowego powinien zapewniać funkcje audytu i rejestrowanie wszystkich aktywności w sieci, aby pomóc w identyfikacji nienaturalnych aktywności oraz wykrywaniu potencjalnych problemów bezpieczeństwa. Poza tym system powinien być w stanie dostosowywać się do zmieniających się warunków sieciowych.
 
-#Skrypty
+# Skrypty
 Skrypty napisane przez programistów są połączone z komponentami takimi jak konta użytkowników, serwery, pliki, usługi, które mają imitować prawdziwe zasoby infrastruktury. Służą do wykrywania złośliwej aktywności. Ponadto, ich zadaniem jest umożliwienie generowania alertów w przypadku wystąpienia incydentu bezpieczeństwa. Dzięki połączeniu z systemem SIEM zapewniają natychmiastowe informowanie personelu o podejrzanej aktywności.
 
 
-##Wymagania funkcjonalne 
+## Wymagania funkcjonalne 
 Skrypty odpowiedzialne są za prawidłowe funkcjonowanie i bezawaryjnego połączenia z komponentami takimi jak: konta użytkowników, maszyny wirtualne – serwery, pliki oraz usługi. Zapewniają również połączenie z systemem SIEM, czyli informatycznym systemem służącym do poprawie cyberbezpieczeństwa firmy poprzez zbieranie oraz analizowanie informacji o incydentach, błędach i podatnościach w czasie rzeczywistym. Skrypty są również odpowiedzialne za poprawne wykrywanie aktywności i generowanie alertów w odpowiednim czasie, a także za imitowanie prawdziwych danych – zapewnienie wiarygodności. Do zadań należy również ujawnienie próby odgadnięcia hasła użytkownika oraz umożliwienie przeciwnikowi dostępu do podstawowej infrastruktury.
 
-##Wymagania Bezpieczeństwa 
+## Wymagania Bezpieczeństwa 
 Skrypty odpowiadają za zapewnienie poufności charakteru użytkownika, usługi, plików oraz podstawionego urządzenia. Poufność jest jedną z najważniejszych cech, jest to funkcja bezpieczeństwa wskazująca obszar, w którym dane nie powinny być udostępniane lub ujawniane nieuprawnionym osobom, procesom lub innym podmiotom. Ich zadaniem jest również uwierzytelnianie w celu zarządzania, a także separacja usług.
 
-##Wymagania wydajności 
+## Wymagania wydajności 
 Wymagania wydajności dla skryptów obejmują ich nieustanną prawidłową pracę w celu zapewnienia poprawności funkcjonowania całego systemu poprzez generowanie alertów i poprawne połączenie z systemem SIEM, po zapewnienie poufności i niezawodności.
